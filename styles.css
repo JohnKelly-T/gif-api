@@ -40,10 +40,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #0E0514;
-opacity: 1;
-background-image: radial-gradient(#271732 0.8500000000000001px, #0E0514 0.8500000000000001px);
-background-size: 17px 17px;
+  padding: 1rem;
+  opacity: 1;
+  background-image: radial-gradient(#271732 0.8500000000000001px, #0E0514 0.8500000000000001px);
+  background-size: 17px 17px;
   width: 100%;
   height: 100vh;
 }
@@ -125,4 +128,52 @@ img {
 .search-input:focus-visible {
   outline: none;
   box-shadow: 0 0 4px 2px #f65362;
+}
+
+footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 255, 255, 0.115);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.credit a {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  text-wrap: nowrap;
+  gap: 0.3rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.credit a:hover {
+  color: #f65362;
+}
+
+.credit svg {
+  width: 1.5rem;
+}
+
+.giphy-attribution a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-underline-offset: 0.2rem;
+  color: white;
+}
+
+.giphy-attribution img {
+  height: 2.5rem;
+  width: auto;
 }
