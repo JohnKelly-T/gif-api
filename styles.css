@@ -77,15 +77,17 @@ button {
   border: 5px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(0deg,rgba(82, 0, 103, 1) 0%, rgba(246, 83, 98, 1) 100%);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 img {
   max-height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .refresh-btn {
   position: absolute;
-  background: #873097;
+  background: #f65362;
   color: white;
   border: none;
   border-radius: 50%;
@@ -95,6 +97,11 @@ img {
   bottom: 1rem;
   right: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  transition: all 200ms ease-out;
+}
+
+.refresh-btn:hover {
+  transform: rotate(180deg);
 }
 
 .search {
