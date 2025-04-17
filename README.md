@@ -12,4 +12,5 @@ https://johnkelly-t.github.io/gif-api/
 
 ## Screenshot
 
-![image](https://github.com/user-attachments/assets/9d53d0ec-0dcb-41e5-89ff-b39f8f67c398)
+![image](https://github.com/user-attachments/assets/7c5a4c05-af1e-4c12-9886-2b2484a9505e)
+
