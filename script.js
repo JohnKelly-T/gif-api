@@ -15,8 +15,17 @@ function loadGif (query) {
     return response.json();
   })
   .then(function(response) {
-    img.src = response.data.images.original.url;
-  });
+    if (response.data.length === 0) {
+      img.src = "./img/not-found.jpg";
+    } else {
+      img.src = response.data.images.original.url;
+    }
+  })
+  .catch(function(error) {
+    img.src = "./img/error.jpg";
+    console.log(error);
+  })
+  ;
 }
 
 searchForm.addEventListener("submit", (e) => {
