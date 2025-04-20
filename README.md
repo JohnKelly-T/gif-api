@@ -6,6 +6,17 @@ This is a simple and interactive web application that allows users to search for
 - Refresh button to load a new random GIF from the current search
 - Powered by the Giphy API
 
+## Skills Practiced
+### Asynchronous JavaScript
+- Using fetch() to make HTTP requests
+- Handling Promises and errors with .then() and .catch()
+- Understanding and using async / await syntax
+
+### APIs (Application Programming Interfaces)
+- Understanding what an API is and how to interact with one
+- Making GET requests to retrieve data from external services
+- Working with JSON data: parsing and accessing properties
+
 ## Live Preview
 
 https://johnkelly-t.github.io/gif-api/
